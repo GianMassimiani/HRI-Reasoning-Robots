@@ -1,0 +1,14 @@
+
+
+State 0 with rank 0 -> <mem_visit_office:0, office:0, boundary:0, hall:1>
+	With successors : 1
+State 1 with rank 0 -> <mem_visit_office:1, office:1, boundary:0, hall:0>
+	With successors : 2
+State 2 with rank 0 -> <mem_visit_office:1, office:0, boundary:0, hall:1>
+	With successors : 2
+State 3 with rank 0 -> <mem_visit_office:0, office:0, boundary:1, hall:0>
+	With successors : 1
+State 4 with rank 0 -> <mem_visit_office:0, office:1, boundary:0, hall:0>
+	With successors : 1
+
+

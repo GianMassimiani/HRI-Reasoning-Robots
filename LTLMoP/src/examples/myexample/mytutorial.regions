@@ -1,0 +1,105 @@
+# This is a region definition file for the LTLMoP toolkit.
+# Format details are described at the beginning of each section below.
+# Note that all values are separated by *tabs*.
+
+Background: # Relative path of background image file
+None
+
+CalibrationPoints: # Vertices to use for map calibration: (vertex_region_name, vertex_index)
+office	0
+office	2
+boundary	2
+
+Obstacles: # Names of regions to treat as obstacles
+boundary
+
+Regions: # Stored as JSON string
+[
+    {
+        "name": "office", 
+        "color": [
+            255, 
+            255, 
+            0
+        ], 
+        "height": 0.0, 
+        "position": [
+            52.0, 
+            32.0
+        ], 
+        "type": "rect", 
+        "size": [
+            153.0, 
+            126.0
+        ]
+    }, 
+    {
+        "name": "boundary", 
+        "color": [
+            129, 
+            126, 
+            114
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                153.0, 
+                0.0
+            ], 
+            [
+                321.0, 
+                0.0
+            ], 
+            [
+                321.0, 
+                126.0
+            ], 
+            [
+                153.0, 
+                126.0
+            ], 
+            [
+                0.0, 
+                126.0
+            ]
+        ], 
+        "position": [
+            52.0, 
+            32.0
+        ], 
+        "type": "poly", 
+        "size": [
+            321.0, 
+            126.0
+        ]
+    }, 
+    {
+        "name": "hall", 
+        "color": [
+            0, 
+            255, 
+            0
+        ], 
+        "height": 0.0, 
+        "position": [
+            205.0, 
+            32.0
+        ], 
+        "type": "rect", 
+        "size": [
+            168.0, 
+            126.0
+        ]
+    }
+]
+
+Transitions: # Region 1 Name, Region 2 Name, Bidirectional transition faces (face1_x1, face1_y1, face1_x2, face1_y2, face2_x1, ...)
+office	boundary	52.0	158.0	52.0	32.0	205.0	32.0	52.0	32.0	205.0	158.0	52.0	158.0
+office	hall	205.0	158.0	205.0	32.0
+boundary	hall	373.0	32.0	205.0	32.0	373.0	158.0	373.0	32.0	373.0	158.0	205.0	158.0
+

@@ -1,0 +1,1835 @@
+digraph {
+	0 [label="0
+r1"]
+	1 [label="1
+mem_visit_r2
+r2"]
+	2 [label="2
+mem_visit_r2
+r2"]
+	3 [label="3
+mem_visit_r2
+r2"]
+	4 [label="4
+react_hostage
+react_bomb
+not_defuse
+r1"]
+	5 [label="5
+r1"]
+	6 [label="6
+r1"]
+	7 [label="7
+mem_visit_r2
+mem_visit_r3
+r3"]
+	8 [label="8
+mem_visit_r2
+mem_visit_r3
+r3"]
+	9 [label="9
+mem_visit_r2
+mem_visit_r3
+r3"]
+	10 [label="10
+react_hostage
+react_bomb
+not_defuse
+mem_visit_r2
+r2"]
+	11 [label="11
+mem_visit_r2
+r2"]
+	12 [label="12
+mem_visit_r2
+r2"]
+	13 [label="13
+mem_visit_r2
+r2"]
+	14 [label="14
+mem_visit_r2
+mem_visit_r3
+r4"]
+	15 [label="15
+mem_visit_r2
+mem_visit_r3
+r4"]
+	16 [label="16
+mem_visit_r2
+mem_visit_r3
+r4"]
+	17 [label="17
+react_hostage
+react_bomb
+not_defuse
+mem_visit_r2
+mem_visit_r3
+r3"]
+	18 [label="18
+mem_visit_r2
+mem_visit_r3
+r1"]
+	19 [label="19
+mem_visit_r2
+mem_visit_r3
+r1"]
+	20 [label="20
+mem_visit_r2
+mem_visit_r3
+r1"]
+	21 [label="21
+react_hostage
+react_bomb
+not_defuse
+mem_visit_r2
+mem_visit_r3
+r4"]
+	22 [label="22
+react_hostage
+react_bomb
+not_defuse
+mem_visit_r2
+mem_visit_r3
+r1"]
+	23 [label="23
+react_bomb
+r1"]
+	24 [label="24
+react_hostage
+r1"]
+	25 [label="25
+react_hostage
+react_bomb
+r1"]
+	26 [label="26
+not_defuse
+r1"]
+	27 [label="27
+react_bomb
+not_defuse
+r1"]
+	28 [label="28
+react_hostage
+not_defuse
+r1"]
+	29 [label="29
+react_hostage
+react_bomb
+not_defuse
+r1"]
+	30 [label="30
+defuse
+r1"]
+	31 [label="31
+react_bomb
+defuse
+r1"]
+	32 [label="32
+react_hostage
+defuse
+r1"]
+	33 [label="33
+react_hostage
+react_bomb
+defuse
+r1"]
+	34 [label="34
+defuse
+not_defuse
+r1"]
+	35 [label="35
+react_bomb
+defuse
+not_defuse
+r1"]
+	36 [label="36
+react_hostage
+defuse
+not_defuse
+r1"]
+	37 [label="37
+react_hostage
+react_bomb
+defuse
+not_defuse
+r1"]
+	38 [label="38
+interact
+r1"]
+	39 [label="39
+react_bomb
+interact
+r1"]
+	40 [label="40
+react_hostage
+interact
+r1"]
+	41 [label="41
+react_hostage
+react_bomb
+interact
+r1"]
+	42 [label="42
+interact
+not_defuse
+r1"]
+	43 [label="43
+react_bomb
+interact
+not_defuse
+r1"]
+	44 [label="44
+react_hostage
+interact
+not_defuse
+r1"]
+	45 [label="45
+react_hostage
+react_bomb
+interact
+not_defuse
+r1"]
+	46 [label="46
+interact
+defuse
+r1"]
+	47 [label="47
+react_bomb
+interact
+defuse
+r1"]
+	48 [label="48
+react_hostage
+interact
+defuse
+r1"]
+	49 [label="49
+react_hostage
+react_bomb
+interact
+defuse
+r1"]
+	50 [label="50
+interact
+defuse
+not_defuse
+r1"]
+	51 [label="51
+react_bomb
+interact
+defuse
+not_defuse
+r1"]
+	52 [label="52
+react_hostage
+interact
+defuse
+not_defuse
+r1"]
+	53 [label="53
+react_hostage
+react_bomb
+interact
+defuse
+not_defuse
+r1"]
+	54 [label="54
+react_bomb
+r1"]
+	55 [label="55
+react_hostage
+r1"]
+	56 [label="56
+react_hostage
+react_bomb
+r1"]
+	57 [label="57
+not_defuse
+r1"]
+	58 [label="58
+react_bomb
+not_defuse
+r1"]
+	59 [label="59
+react_hostage
+not_defuse
+r1"]
+	60 [label="60
+react_hostage
+react_bomb
+not_defuse
+r1"]
+	61 [label="61
+defuse
+r1"]
+	62 [label="62
+react_bomb
+defuse
+r1"]
+	63 [label="63
+react_hostage
+defuse
+r1"]
+	64 [label="64
+react_hostage
+react_bomb
+defuse
+r1"]
+	65 [label="65
+defuse
+not_defuse
+r1"]
+	66 [label="66
+react_bomb
+defuse
+not_defuse
+r1"]
+	67 [label="67
+react_hostage
+defuse
+not_defuse
+r1"]
+	68 [label="68
+react_hostage
+react_bomb
+defuse
+not_defuse
+r1"]
+	69 [label="69
+interact
+r1"]
+	70 [label="70
+react_bomb
+interact
+r1"]
+	71 [label="71
+react_hostage
+interact
+r1"]
+	72 [label="72
+react_hostage
+react_bomb
+interact
+r1"]
+	73 [label="73
+interact
+not_defuse
+r1"]
+	74 [label="74
+react_bomb
+interact
+not_defuse
+r1"]
+	75 [label="75
+react_hostage
+interact
+not_defuse
+r1"]
+	76 [label="76
+react_hostage
+react_bomb
+interact
+not_defuse
+r1"]
+	77 [label="77
+interact
+defuse
+r1"]
+	78 [label="78
+react_bomb
+interact
+defuse
+r1"]
+	79 [label="79
+react_hostage
+interact
+defuse
+r1"]
+	80 [label="80
+react_hostage
+react_bomb
+interact
+defuse
+r1"]
+	81 [label="81
+interact
+defuse
+not_defuse
+r1"]
+	82 [label="82
+react_bomb
+interact
+defuse
+not_defuse
+r1"]
+	83 [label="83
+react_hostage
+interact
+defuse
+not_defuse
+r1"]
+	84 [label="84
+react_hostage
+react_bomb
+interact
+defuse
+not_defuse
+r1"]
+	85 [label="85
+react_bomb
+r1"]
+	86 [label="86
+react_hostage
+r1"]
+	87 [label="87
+react_hostage
+react_bomb
+r1"]
+	88 [label="88
+not_defuse
+r1"]
+	89 [label="89
+react_bomb
+not_defuse
+r1"]
+	90 [label="90
+react_hostage
+not_defuse
+r1"]
+	91 [label="91
+react_hostage
+react_bomb
+not_defuse
+r1"]
+	92 [label="92
+defuse
+r1"]
+	93 [label="93
+react_bomb
+defuse
+r1"]
+	94 [label="94
+react_hostage
+defuse
+r1"]
+	95 [label="95
+react_hostage
+react_bomb
+defuse
+r1"]
+	96 [label="96
+defuse
+not_defuse
+r1"]
+	97 [label="97
+react_bomb
+defuse
+not_defuse
+r1"]
+	98 [label="98
+react_hostage
+defuse
+not_defuse
+r1"]
+	99 [label="99
+react_hostage
+react_bomb
+defuse
+not_defuse
+r1"]
+	100 [label="100
+interact
+r1"]
+	101 [label="101
+react_bomb
+interact
+r1"]
+	102 [label="102
+react_hostage
+interact
+r1"]
+	103 [label="103
+react_hostage
+react_bomb
+interact
+r1"]
+	104 [label="104
+interact
+not_defuse
+r1"]
+	105 [label="105
+react_bomb
+interact
+not_defuse
+r1"]
+	106 [label="106
+react_hostage
+interact
+not_defuse
+r1"]
+	107 [label="107
+react_hostage
+react_bomb
+interact
+not_defuse
+r1"]
+	108 [label="108
+interact
+defuse
+r1"]
+	109 [label="109
+react_bomb
+interact
+defuse
+r1"]
+	110 [label="110
+react_hostage
+interact
+defuse
+r1"]
+	111 [label="111
+react_hostage
+react_bomb
+interact
+defuse
+r1"]
+	112 [label="112
+interact
+defuse
+not_defuse
+r1"]
+	113 [label="113
+react_bomb
+interact
+defuse
+not_defuse
+r1"]
+	114 [label="114
+react_hostage
+interact
+defuse
+not_defuse
+r1"]
+	115 [label="115
+react_hostage
+react_bomb
+interact
+defuse
+not_defuse
+r1"]
+	116 [label="116
+r1"]
+	117 [label="117
+react_bomb
+r1"]
+	118 [label="118
+react_hostage
+r1"]
+	119 [label="119
+react_hostage
+react_bomb
+r1"]
+	120 [label="120
+not_defuse
+r1"]
+	121 [label="121
+react_bomb
+not_defuse
+r1"]
+	122 [label="122
+react_hostage
+not_defuse
+r1"]
+	123 [label="123
+defuse
+r1"]
+	124 [label="124
+react_bomb
+defuse
+r1"]
+	125 [label="125
+react_hostage
+defuse
+r1"]
+	126 [label="126
+react_hostage
+react_bomb
+defuse
+r1"]
+	127 [label="127
+defuse
+not_defuse
+r1"]
+	128 [label="128
+react_bomb
+defuse
+not_defuse
+r1"]
+	129 [label="129
+react_hostage
+defuse
+not_defuse
+r1"]
+	130 [label="130
+react_hostage
+react_bomb
+defuse
+not_defuse
+r1"]
+	131 [label="131
+interact
+r1"]
+	132 [label="132
+react_bomb
+interact
+r1"]
+	133 [label="133
+react_hostage
+interact
+r1"]
+	134 [label="134
+react_hostage
+react_bomb
+interact
+r1"]
+	135 [label="135
+interact
+not_defuse
+r1"]
+	136 [label="136
+react_bomb
+interact
+not_defuse
+r1"]
+	137 [label="137
+react_hostage
+interact
+not_defuse
+r1"]
+	138 [label="138
+react_hostage
+react_bomb
+interact
+not_defuse
+r1"]
+	139 [label="139
+interact
+defuse
+r1"]
+	140 [label="140
+react_bomb
+interact
+defuse
+r1"]
+	141 [label="141
+react_hostage
+interact
+defuse
+r1"]
+	142 [label="142
+react_hostage
+react_bomb
+interact
+defuse
+r1"]
+	143 [label="143
+interact
+defuse
+not_defuse
+r1"]
+	144 [label="144
+react_bomb
+interact
+defuse
+not_defuse
+r1"]
+	145 [label="145
+react_hostage
+interact
+defuse
+not_defuse
+r1"]
+	146 [label="146
+react_hostage
+react_bomb
+interact
+defuse
+not_defuse
+r1"]
+	0 -> 1 [label=""]
+	0 -> 2 [label=bomb
+]
+	0 -> 3 [label=hostage
+]
+	0 -> 4 [label="hostage
+bomb
+"]
+	1 -> 7 [label=""]
+	1 -> 8 [label=bomb
+]
+	1 -> 9 [label=hostage
+]
+	1 -> 10 [label="hostage
+bomb
+"]
+	2 -> 7 [label=""]
+	2 -> 8 [label=bomb
+]
+	2 -> 9 [label=hostage
+]
+	2 -> 10 [label="hostage
+bomb
+"]
+	3 -> 7 [label=""]
+	3 -> 8 [label=bomb
+]
+	3 -> 9 [label=hostage
+]
+	3 -> 10 [label="hostage
+bomb
+"]
+	4 -> 0 [label=""]
+	4 -> 5 [label=bomb
+]
+	4 -> 6 [label=hostage
+]
+	4 -> 4 [label="hostage
+bomb
+"]
+	5 -> 1 [label=""]
+	5 -> 2 [label=bomb
+]
+	5 -> 3 [label=hostage
+]
+	5 -> 4 [label="hostage
+bomb
+"]
+	6 -> 1 [label=""]
+	6 -> 2 [label=bomb
+]
+	6 -> 3 [label=hostage
+]
+	6 -> 4 [label="hostage
+bomb
+"]
+	7 -> 14 [label=""]
+	7 -> 15 [label=bomb
+]
+	7 -> 16 [label=hostage
+]
+	7 -> 17 [label="hostage
+bomb
+"]
+	8 -> 14 [label=""]
+	8 -> 15 [label=bomb
+]
+	8 -> 16 [label=hostage
+]
+	8 -> 17 [label="hostage
+bomb
+"]
+	9 -> 14 [label=""]
+	9 -> 15 [label=bomb
+]
+	9 -> 16 [label=hostage
+]
+	9 -> 17 [label="hostage
+bomb
+"]
+	10 -> 11 [label=""]
+	10 -> 12 [label=bomb
+]
+	10 -> 13 [label=hostage
+]
+	10 -> 10 [label="hostage
+bomb
+"]
+	11 -> 7 [label=""]
+	11 -> 8 [label=bomb
+]
+	11 -> 9 [label=hostage
+]
+	11 -> 10 [label="hostage
+bomb
+"]
+	12 -> 7 [label=""]
+	12 -> 8 [label=bomb
+]
+	12 -> 9 [label=hostage
+]
+	12 -> 10 [label="hostage
+bomb
+"]
+	13 -> 7 [label=""]
+	13 -> 8 [label=bomb
+]
+	13 -> 9 [label=hostage
+]
+	13 -> 10 [label="hostage
+bomb
+"]
+	14 -> 18 [label=""]
+	14 -> 19 [label=bomb
+]
+	14 -> 20 [label=hostage
+]
+	14 -> 21 [label="hostage
+bomb
+"]
+	15 -> 18 [label=""]
+	15 -> 19 [label=bomb
+]
+	15 -> 20 [label=hostage
+]
+	15 -> 21 [label="hostage
+bomb
+"]
+	16 -> 18 [label=""]
+	16 -> 19 [label=bomb
+]
+	16 -> 20 [label=hostage
+]
+	16 -> 21 [label="hostage
+bomb
+"]
+	17 -> 7 [label=""]
+	17 -> 8 [label=bomb
+]
+	17 -> 9 [label=hostage
+]
+	17 -> 17 [label="hostage
+bomb
+"]
+	18 -> 18 [label=""]
+	18 -> 19 [label=bomb
+]
+	18 -> 20 [label=hostage
+]
+	18 -> 22 [label="hostage
+bomb
+"]
+	19 -> 18 [label=""]
+	19 -> 19 [label=bomb
+]
+	19 -> 20 [label=hostage
+]
+	19 -> 22 [label="hostage
+bomb
+"]
+	20 -> 18 [label=""]
+	20 -> 19 [label=bomb
+]
+	20 -> 20 [label=hostage
+]
+	20 -> 22 [label="hostage
+bomb
+"]
+	21 -> 14 [label=""]
+	21 -> 15 [label=bomb
+]
+	21 -> 16 [label=hostage
+]
+	21 -> 21 [label="hostage
+bomb
+"]
+	22 -> 18 [label=""]
+	22 -> 19 [label=bomb
+]
+	22 -> 20 [label=hostage
+]
+	22 -> 22 [label="hostage
+bomb
+"]
+	23 -> 1 [label=""]
+	23 -> 2 [label=bomb
+]
+	23 -> 3 [label=hostage
+]
+	23 -> 4 [label="hostage
+bomb
+"]
+	24 -> 1 [label=""]
+	24 -> 2 [label=bomb
+]
+	24 -> 3 [label=hostage
+]
+	24 -> 4 [label="hostage
+bomb
+"]
+	25 -> 0 [label=""]
+	25 -> 5 [label=bomb
+]
+	25 -> 6 [label=hostage
+]
+	25 -> 4 [label="hostage
+bomb
+"]
+	26 -> 1 [label=""]
+	26 -> 2 [label=bomb
+]
+	26 -> 3 [label=hostage
+]
+	26 -> 4 [label="hostage
+bomb
+"]
+	27 -> 1 [label=""]
+	27 -> 2 [label=bomb
+]
+	27 -> 3 [label=hostage
+]
+	27 -> 4 [label="hostage
+bomb
+"]
+	28 -> 1 [label=""]
+	28 -> 2 [label=bomb
+]
+	28 -> 3 [label=hostage
+]
+	28 -> 4 [label="hostage
+bomb
+"]
+	29 -> 0 [label=""]
+	29 -> 5 [label=bomb
+]
+	29 -> 6 [label=hostage
+]
+	29 -> 4 [label="hostage
+bomb
+"]
+	30 -> 1 [label=""]
+	30 -> 2 [label=bomb
+]
+	30 -> 3 [label=hostage
+]
+	30 -> 4 [label="hostage
+bomb
+"]
+	31 -> 1 [label=""]
+	31 -> 2 [label=bomb
+]
+	31 -> 3 [label=hostage
+]
+	31 -> 4 [label="hostage
+bomb
+"]
+	32 -> 1 [label=""]
+	32 -> 2 [label=bomb
+]
+	32 -> 3 [label=hostage
+]
+	32 -> 4 [label="hostage
+bomb
+"]
+	33 -> 0 [label=""]
+	33 -> 5 [label=bomb
+]
+	33 -> 6 [label=hostage
+]
+	33 -> 4 [label="hostage
+bomb
+"]
+	34 -> 1 [label=""]
+	34 -> 2 [label=bomb
+]
+	34 -> 3 [label=hostage
+]
+	34 -> 4 [label="hostage
+bomb
+"]
+	35 -> 1 [label=""]
+	35 -> 2 [label=bomb
+]
+	35 -> 3 [label=hostage
+]
+	35 -> 4 [label="hostage
+bomb
+"]
+	36 -> 1 [label=""]
+	36 -> 2 [label=bomb
+]
+	36 -> 3 [label=hostage
+]
+	36 -> 4 [label="hostage
+bomb
+"]
+	37 -> 0 [label=""]
+	37 -> 5 [label=bomb
+]
+	37 -> 6 [label=hostage
+]
+	37 -> 4 [label="hostage
+bomb
+"]
+	38 -> 1 [label=""]
+	38 -> 2 [label=bomb
+]
+	38 -> 3 [label=hostage
+]
+	38 -> 4 [label="hostage
+bomb
+"]
+	39 -> 1 [label=""]
+	39 -> 2 [label=bomb
+]
+	39 -> 3 [label=hostage
+]
+	39 -> 4 [label="hostage
+bomb
+"]
+	40 -> 1 [label=""]
+	40 -> 2 [label=bomb
+]
+	40 -> 3 [label=hostage
+]
+	40 -> 4 [label="hostage
+bomb
+"]
+	41 -> 0 [label=""]
+	41 -> 5 [label=bomb
+]
+	41 -> 6 [label=hostage
+]
+	41 -> 4 [label="hostage
+bomb
+"]
+	42 -> 1 [label=""]
+	42 -> 2 [label=bomb
+]
+	42 -> 3 [label=hostage
+]
+	42 -> 4 [label="hostage
+bomb
+"]
+	43 -> 1 [label=""]
+	43 -> 2 [label=bomb
+]
+	43 -> 3 [label=hostage
+]
+	43 -> 4 [label="hostage
+bomb
+"]
+	44 -> 1 [label=""]
+	44 -> 2 [label=bomb
+]
+	44 -> 3 [label=hostage
+]
+	44 -> 4 [label="hostage
+bomb
+"]
+	45 -> 0 [label=""]
+	45 -> 5 [label=bomb
+]
+	45 -> 6 [label=hostage
+]
+	45 -> 4 [label="hostage
+bomb
+"]
+	46 -> 1 [label=""]
+	46 -> 2 [label=bomb
+]
+	46 -> 3 [label=hostage
+]
+	46 -> 4 [label="hostage
+bomb
+"]
+	47 -> 1 [label=""]
+	47 -> 2 [label=bomb
+]
+	47 -> 3 [label=hostage
+]
+	47 -> 4 [label="hostage
+bomb
+"]
+	48 -> 1 [label=""]
+	48 -> 2 [label=bomb
+]
+	48 -> 3 [label=hostage
+]
+	48 -> 4 [label="hostage
+bomb
+"]
+	49 -> 0 [label=""]
+	49 -> 5 [label=bomb
+]
+	49 -> 6 [label=hostage
+]
+	49 -> 4 [label="hostage
+bomb
+"]
+	50 -> 1 [label=""]
+	50 -> 2 [label=bomb
+]
+	50 -> 3 [label=hostage
+]
+	50 -> 4 [label="hostage
+bomb
+"]
+	51 -> 1 [label=""]
+	51 -> 2 [label=bomb
+]
+	51 -> 3 [label=hostage
+]
+	51 -> 4 [label="hostage
+bomb
+"]
+	52 -> 1 [label=""]
+	52 -> 2 [label=bomb
+]
+	52 -> 3 [label=hostage
+]
+	52 -> 4 [label="hostage
+bomb
+"]
+	53 -> 0 [label=""]
+	53 -> 5 [label=bomb
+]
+	53 -> 6 [label=hostage
+]
+	53 -> 4 [label="hostage
+bomb
+"]
+	54 -> 1 [label=""]
+	54 -> 2 [label=bomb
+]
+	54 -> 3 [label=hostage
+]
+	54 -> 4 [label="hostage
+bomb
+"]
+	55 -> 1 [label=""]
+	55 -> 2 [label=bomb
+]
+	55 -> 3 [label=hostage
+]
+	55 -> 4 [label="hostage
+bomb
+"]
+	56 -> 0 [label=""]
+	56 -> 5 [label=bomb
+]
+	56 -> 6 [label=hostage
+]
+	56 -> 4 [label="hostage
+bomb
+"]
+	57 -> 1 [label=""]
+	57 -> 2 [label=bomb
+]
+	57 -> 3 [label=hostage
+]
+	57 -> 4 [label="hostage
+bomb
+"]
+	58 -> 1 [label=""]
+	58 -> 2 [label=bomb
+]
+	58 -> 3 [label=hostage
+]
+	58 -> 4 [label="hostage
+bomb
+"]
+	59 -> 1 [label=""]
+	59 -> 2 [label=bomb
+]
+	59 -> 3 [label=hostage
+]
+	59 -> 4 [label="hostage
+bomb
+"]
+	60 -> 0 [label=""]
+	60 -> 5 [label=bomb
+]
+	60 -> 6 [label=hostage
+]
+	60 -> 4 [label="hostage
+bomb
+"]
+	61 -> 1 [label=""]
+	61 -> 2 [label=bomb
+]
+	61 -> 3 [label=hostage
+]
+	61 -> 4 [label="hostage
+bomb
+"]
+	62 -> 1 [label=""]
+	62 -> 2 [label=bomb
+]
+	62 -> 3 [label=hostage
+]
+	62 -> 4 [label="hostage
+bomb
+"]
+	63 -> 1 [label=""]
+	63 -> 2 [label=bomb
+]
+	63 -> 3 [label=hostage
+]
+	63 -> 4 [label="hostage
+bomb
+"]
+	64 -> 0 [label=""]
+	64 -> 5 [label=bomb
+]
+	64 -> 6 [label=hostage
+]
+	64 -> 4 [label="hostage
+bomb
+"]
+	65 -> 1 [label=""]
+	65 -> 2 [label=bomb
+]
+	65 -> 3 [label=hostage
+]
+	65 -> 4 [label="hostage
+bomb
+"]
+	66 -> 1 [label=""]
+	66 -> 2 [label=bomb
+]
+	66 -> 3 [label=hostage
+]
+	66 -> 4 [label="hostage
+bomb
+"]
+	67 -> 1 [label=""]
+	67 -> 2 [label=bomb
+]
+	67 -> 3 [label=hostage
+]
+	67 -> 4 [label="hostage
+bomb
+"]
+	68 -> 0 [label=""]
+	68 -> 5 [label=bomb
+]
+	68 -> 6 [label=hostage
+]
+	68 -> 4 [label="hostage
+bomb
+"]
+	69 -> 1 [label=""]
+	69 -> 2 [label=bomb
+]
+	69 -> 3 [label=hostage
+]
+	69 -> 4 [label="hostage
+bomb
+"]
+	70 -> 1 [label=""]
+	70 -> 2 [label=bomb
+]
+	70 -> 3 [label=hostage
+]
+	70 -> 4 [label="hostage
+bomb
+"]
+	71 -> 1 [label=""]
+	71 -> 2 [label=bomb
+]
+	71 -> 3 [label=hostage
+]
+	71 -> 4 [label="hostage
+bomb
+"]
+	72 -> 0 [label=""]
+	72 -> 5 [label=bomb
+]
+	72 -> 6 [label=hostage
+]
+	72 -> 4 [label="hostage
+bomb
+"]
+	73 -> 1 [label=""]
+	73 -> 2 [label=bomb
+]
+	73 -> 3 [label=hostage
+]
+	73 -> 4 [label="hostage
+bomb
+"]
+	74 -> 1 [label=""]
+	74 -> 2 [label=bomb
+]
+	74 -> 3 [label=hostage
+]
+	74 -> 4 [label="hostage
+bomb
+"]
+	75 -> 1 [label=""]
+	75 -> 2 [label=bomb
+]
+	75 -> 3 [label=hostage
+]
+	75 -> 4 [label="hostage
+bomb
+"]
+	76 -> 0 [label=""]
+	76 -> 5 [label=bomb
+]
+	76 -> 6 [label=hostage
+]
+	76 -> 4 [label="hostage
+bomb
+"]
+	77 -> 1 [label=""]
+	77 -> 2 [label=bomb
+]
+	77 -> 3 [label=hostage
+]
+	77 -> 4 [label="hostage
+bomb
+"]
+	78 -> 1 [label=""]
+	78 -> 2 [label=bomb
+]
+	78 -> 3 [label=hostage
+]
+	78 -> 4 [label="hostage
+bomb
+"]
+	79 -> 1 [label=""]
+	79 -> 2 [label=bomb
+]
+	79 -> 3 [label=hostage
+]
+	79 -> 4 [label="hostage
+bomb
+"]
+	80 -> 0 [label=""]
+	80 -> 5 [label=bomb
+]
+	80 -> 6 [label=hostage
+]
+	80 -> 4 [label="hostage
+bomb
+"]
+	81 -> 1 [label=""]
+	81 -> 2 [label=bomb
+]
+	81 -> 3 [label=hostage
+]
+	81 -> 4 [label="hostage
+bomb
+"]
+	82 -> 1 [label=""]
+	82 -> 2 [label=bomb
+]
+	82 -> 3 [label=hostage
+]
+	82 -> 4 [label="hostage
+bomb
+"]
+	83 -> 1 [label=""]
+	83 -> 2 [label=bomb
+]
+	83 -> 3 [label=hostage
+]
+	83 -> 4 [label="hostage
+bomb
+"]
+	84 -> 0 [label=""]
+	84 -> 5 [label=bomb
+]
+	84 -> 6 [label=hostage
+]
+	84 -> 4 [label="hostage
+bomb
+"]
+	85 -> 1 [label=""]
+	85 -> 2 [label=bomb
+]
+	85 -> 3 [label=hostage
+]
+	85 -> 4 [label="hostage
+bomb
+"]
+	86 -> 1 [label=""]
+	86 -> 2 [label=bomb
+]
+	86 -> 3 [label=hostage
+]
+	86 -> 4 [label="hostage
+bomb
+"]
+	87 -> 0 [label=""]
+	87 -> 5 [label=bomb
+]
+	87 -> 6 [label=hostage
+]
+	87 -> 4 [label="hostage
+bomb
+"]
+	88 -> 1 [label=""]
+	88 -> 2 [label=bomb
+]
+	88 -> 3 [label=hostage
+]
+	88 -> 4 [label="hostage
+bomb
+"]
+	89 -> 1 [label=""]
+	89 -> 2 [label=bomb
+]
+	89 -> 3 [label=hostage
+]
+	89 -> 4 [label="hostage
+bomb
+"]
+	90 -> 1 [label=""]
+	90 -> 2 [label=bomb
+]
+	90 -> 3 [label=hostage
+]
+	90 -> 4 [label="hostage
+bomb
+"]
+	91 -> 0 [label=""]
+	91 -> 5 [label=bomb
+]
+	91 -> 6 [label=hostage
+]
+	91 -> 4 [label="hostage
+bomb
+"]
+	92 -> 1 [label=""]
+	92 -> 2 [label=bomb
+]
+	92 -> 3 [label=hostage
+]
+	92 -> 4 [label="hostage
+bomb
+"]
+	93 -> 1 [label=""]
+	93 -> 2 [label=bomb
+]
+	93 -> 3 [label=hostage
+]
+	93 -> 4 [label="hostage
+bomb
+"]
+	94 -> 1 [label=""]
+	94 -> 2 [label=bomb
+]
+	94 -> 3 [label=hostage
+]
+	94 -> 4 [label="hostage
+bomb
+"]
+	95 -> 0 [label=""]
+	95 -> 5 [label=bomb
+]
+	95 -> 6 [label=hostage
+]
+	95 -> 4 [label="hostage
+bomb
+"]
+	96 -> 1 [label=""]
+	96 -> 2 [label=bomb
+]
+	96 -> 3 [label=hostage
+]
+	96 -> 4 [label="hostage
+bomb
+"]
+	97 -> 1 [label=""]
+	97 -> 2 [label=bomb
+]
+	97 -> 3 [label=hostage
+]
+	97 -> 4 [label="hostage
+bomb
+"]
+	98 -> 1 [label=""]
+	98 -> 2 [label=bomb
+]
+	98 -> 3 [label=hostage
+]
+	98 -> 4 [label="hostage
+bomb
+"]
+	99 -> 0 [label=""]
+	99 -> 5 [label=bomb
+]
+	99 -> 6 [label=hostage
+]
+	99 -> 4 [label="hostage
+bomb
+"]
+	100 -> 1 [label=""]
+	100 -> 2 [label=bomb
+]
+	100 -> 3 [label=hostage
+]
+	100 -> 4 [label="hostage
+bomb
+"]
+	101 -> 1 [label=""]
+	101 -> 2 [label=bomb
+]
+	101 -> 3 [label=hostage
+]
+	101 -> 4 [label="hostage
+bomb
+"]
+	102 -> 1 [label=""]
+	102 -> 2 [label=bomb
+]
+	102 -> 3 [label=hostage
+]
+	102 -> 4 [label="hostage
+bomb
+"]
+	103 -> 0 [label=""]
+	103 -> 5 [label=bomb
+]
+	103 -> 6 [label=hostage
+]
+	103 -> 4 [label="hostage
+bomb
+"]
+	104 -> 1 [label=""]
+	104 -> 2 [label=bomb
+]
+	104 -> 3 [label=hostage
+]
+	104 -> 4 [label="hostage
+bomb
+"]
+	105 -> 1 [label=""]
+	105 -> 2 [label=bomb
+]
+	105 -> 3 [label=hostage
+]
+	105 -> 4 [label="hostage
+bomb
+"]
+	106 -> 1 [label=""]
+	106 -> 2 [label=bomb
+]
+	106 -> 3 [label=hostage
+]
+	106 -> 4 [label="hostage
+bomb
+"]
+	107 -> 0 [label=""]
+	107 -> 5 [label=bomb
+]
+	107 -> 6 [label=hostage
+]
+	107 -> 4 [label="hostage
+bomb
+"]
+	108 -> 1 [label=""]
+	108 -> 2 [label=bomb
+]
+	108 -> 3 [label=hostage
+]
+	108 -> 4 [label="hostage
+bomb
+"]
+	109 -> 1 [label=""]
+	109 -> 2 [label=bomb
+]
+	109 -> 3 [label=hostage
+]
+	109 -> 4 [label="hostage
+bomb
+"]
+	110 -> 1 [label=""]
+	110 -> 2 [label=bomb
+]
+	110 -> 3 [label=hostage
+]
+	110 -> 4 [label="hostage
+bomb
+"]
+	111 -> 0 [label=""]
+	111 -> 5 [label=bomb
+]
+	111 -> 6 [label=hostage
+]
+	111 -> 4 [label="hostage
+bomb
+"]
+	112 -> 1 [label=""]
+	112 -> 2 [label=bomb
+]
+	112 -> 3 [label=hostage
+]
+	112 -> 4 [label="hostage
+bomb
+"]
+	113 -> 1 [label=""]
+	113 -> 2 [label=bomb
+]
+	113 -> 3 [label=hostage
+]
+	113 -> 4 [label="hostage
+bomb
+"]
+	114 -> 1 [label=""]
+	114 -> 2 [label=bomb
+]
+	114 -> 3 [label=hostage
+]
+	114 -> 4 [label="hostage
+bomb
+"]
+	115 -> 0 [label=""]
+	115 -> 5 [label=bomb
+]
+	115 -> 6 [label=hostage
+]
+	115 -> 4 [label="hostage
+bomb
+"]
+	116 -> 1 [label=""]
+	116 -> 2 [label=bomb
+]
+	116 -> 3 [label=hostage
+]
+	116 -> 4 [label="hostage
+bomb
+"]
+	117 -> 1 [label=""]
+	117 -> 2 [label=bomb
+]
+	117 -> 3 [label=hostage
+]
+	117 -> 4 [label="hostage
+bomb
+"]
+	118 -> 1 [label=""]
+	118 -> 2 [label=bomb
+]
+	118 -> 3 [label=hostage
+]
+	118 -> 4 [label="hostage
+bomb
+"]
+	119 -> 0 [label=""]
+	119 -> 5 [label=bomb
+]
+	119 -> 6 [label=hostage
+]
+	119 -> 4 [label="hostage
+bomb
+"]
+	120 -> 1 [label=""]
+	120 -> 2 [label=bomb
+]
+	120 -> 3 [label=hostage
+]
+	120 -> 4 [label="hostage
+bomb
+"]
+	121 -> 1 [label=""]
+	121 -> 2 [label=bomb
+]
+	121 -> 3 [label=hostage
+]
+	121 -> 4 [label="hostage
+bomb
+"]
+	122 -> 1 [label=""]
+	122 -> 2 [label=bomb
+]
+	122 -> 3 [label=hostage
+]
+	122 -> 4 [label="hostage
+bomb
+"]
+	123 -> 1 [label=""]
+	123 -> 2 [label=bomb
+]
+	123 -> 3 [label=hostage
+]
+	123 -> 4 [label="hostage
+bomb
+"]
+	124 -> 1 [label=""]
+	124 -> 2 [label=bomb
+]
+	124 -> 3 [label=hostage
+]
+	124 -> 4 [label="hostage
+bomb
+"]
+	125 -> 1 [label=""]
+	125 -> 2 [label=bomb
+]
+	125 -> 3 [label=hostage
+]
+	125 -> 4 [label="hostage
+bomb
+"]
+	126 -> 0 [label=""]
+	126 -> 5 [label=bomb
+]
+	126 -> 6 [label=hostage
+]
+	126 -> 4 [label="hostage
+bomb
+"]
+	127 -> 1 [label=""]
+	127 -> 2 [label=bomb
+]
+	127 -> 3 [label=hostage
+]
+	127 -> 4 [label="hostage
+bomb
+"]
+	128 -> 1 [label=""]
+	128 -> 2 [label=bomb
+]
+	128 -> 3 [label=hostage
+]
+	128 -> 4 [label="hostage
+bomb
+"]
+	129 -> 1 [label=""]
+	129 -> 2 [label=bomb
+]
+	129 -> 3 [label=hostage
+]
+	129 -> 4 [label="hostage
+bomb
+"]
+	130 -> 0 [label=""]
+	130 -> 5 [label=bomb
+]
+	130 -> 6 [label=hostage
+]
+	130 -> 4 [label="hostage
+bomb
+"]
+	131 -> 1 [label=""]
+	131 -> 2 [label=bomb
+]
+	131 -> 3 [label=hostage
+]
+	131 -> 4 [label="hostage
+bomb
+"]
+	132 -> 1 [label=""]
+	132 -> 2 [label=bomb
+]
+	132 -> 3 [label=hostage
+]
+	132 -> 4 [label="hostage
+bomb
+"]
+	133 -> 1 [label=""]
+	133 -> 2 [label=bomb
+]
+	133 -> 3 [label=hostage
+]
+	133 -> 4 [label="hostage
+bomb
+"]
+	134 -> 0 [label=""]
+	134 -> 5 [label=bomb
+]
+	134 -> 6 [label=hostage
+]
+	134 -> 4 [label="hostage
+bomb
+"]
+	135 -> 1 [label=""]
+	135 -> 2 [label=bomb
+]
+	135 -> 3 [label=hostage
+]
+	135 -> 4 [label="hostage
+bomb
+"]
+	136 -> 1 [label=""]
+	136 -> 2 [label=bomb
+]
+	136 -> 3 [label=hostage
+]
+	136 -> 4 [label="hostage
+bomb
+"]
+	137 -> 1 [label=""]
+	137 -> 2 [label=bomb
+]
+	137 -> 3 [label=hostage
+]
+	137 -> 4 [label="hostage
+bomb
+"]
+	138 -> 0 [label=""]
+	138 -> 5 [label=bomb
+]
+	138 -> 6 [label=hostage
+]
+	138 -> 4 [label="hostage
+bomb
+"]
+	139 -> 1 [label=""]
+	139 -> 2 [label=bomb
+]
+	139 -> 3 [label=hostage
+]
+	139 -> 4 [label="hostage
+bomb
+"]
+	140 -> 1 [label=""]
+	140 -> 2 [label=bomb
+]
+	140 -> 3 [label=hostage
+]
+	140 -> 4 [label="hostage
+bomb
+"]
+	141 -> 1 [label=""]
+	141 -> 2 [label=bomb
+]
+	141 -> 3 [label=hostage
+]
+	141 -> 4 [label="hostage
+bomb
+"]
+	142 -> 0 [label=""]
+	142 -> 5 [label=bomb
+]
+	142 -> 6 [label=hostage
+]
+	142 -> 4 [label="hostage
+bomb
+"]
+	143 -> 1 [label=""]
+	143 -> 2 [label=bomb
+]
+	143 -> 3 [label=hostage
+]
+	143 -> 4 [label="hostage
+bomb
+"]
+	144 -> 1 [label=""]
+	144 -> 2 [label=bomb
+]
+	144 -> 3 [label=hostage
+]
+	144 -> 4 [label="hostage
+bomb
+"]
+	145 -> 1 [label=""]
+	145 -> 2 [label=bomb
+]
+	145 -> 3 [label=hostage
+]
+	145 -> 4 [label="hostage
+bomb
+"]
+	146 -> 0 [label=""]
+	146 -> 5 [label=bomb
+]
+	146 -> 6 [label=hostage
+]
+	146 -> 4 [label="hostage
+bomb
+"]
+}

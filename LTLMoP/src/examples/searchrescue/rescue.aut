@@ -1,0 +1,298 @@
+
+
+State 0 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 1 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:0, r3:0, r2:1, r4:0, r1:0>
+	With successors : 7, 8, 9, 10
+State 2 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:0, r3:0, r2:1, r4:0, r1:0>
+	With successors : 7, 8, 9, 10
+State 3 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:0, r3:0, r2:1, r4:0, r1:0>
+	With successors : 7, 8, 9, 10
+State 4 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 5 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 6 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 7 with rank 1 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:1, r3:1, r2:0, r4:0, r1:0>
+	With successors : 14, 15, 16, 17
+State 8 with rank 1 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:1, r3:1, r2:0, r4:0, r1:0>
+	With successors : 14, 15, 16, 17
+State 9 with rank 1 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:1, r3:1, r2:0, r4:0, r1:0>
+	With successors : 14, 15, 16, 17
+State 10 with rank 1 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:1, mem_visit_r3:0, r3:0, r2:1, r4:0, r1:0>
+	With successors : 11, 12, 13, 10
+State 11 with rank 1 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:0, r3:0, r2:1, r4:0, r1:0>
+	With successors : 7, 8, 9, 10
+State 12 with rank 1 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:0, r3:0, r2:1, r4:0, r1:0>
+	With successors : 7, 8, 9, 10
+State 13 with rank 1 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:0, r3:0, r2:1, r4:0, r1:0>
+	With successors : 7, 8, 9, 10
+State 14 with rank 1 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:1, r3:0, r2:0, r4:1, r1:0>
+	With successors : 18, 19, 20, 21
+State 15 with rank 1 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:1, r3:0, r2:0, r4:1, r1:0>
+	With successors : 18, 19, 20, 21
+State 16 with rank 1 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:1, r3:0, r2:0, r4:1, r1:0>
+	With successors : 18, 19, 20, 21
+State 17 with rank 1 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:1, mem_visit_r3:1, r3:1, r2:0, r4:0, r1:0>
+	With successors : 7, 8, 9, 17
+State 18 with rank 1 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:1, r3:0, r2:0, r4:0, r1:1>
+	With successors : 18, 19, 20, 22
+State 19 with rank 1 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:1, r3:0, r2:0, r4:0, r1:1>
+	With successors : 18, 19, 20, 22
+State 20 with rank 1 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:1, mem_visit_r3:1, r3:0, r2:0, r4:0, r1:1>
+	With successors : 18, 19, 20, 22
+State 21 with rank 1 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:1, mem_visit_r3:1, r3:0, r2:0, r4:1, r1:0>
+	With successors : 14, 15, 16, 21
+State 22 with rank 1 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:1, mem_visit_r3:1, r3:0, r2:0, r4:0, r1:1>
+	With successors : 18, 19, 20, 22
+State 23 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 24 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 25 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 26 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 27 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 28 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 29 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 30 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:1, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 31 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:1, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 32 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:1, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 33 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:1, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 34 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:1, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 35 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:1, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 36 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:1, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 37 with rank 0 -> <hostage:0, bomb:0, interact:0, defuse:1, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 38 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 39 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:0, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 40 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:0, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 41 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:0, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 42 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:0, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 43 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:0, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 44 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:0, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 45 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 46 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:1, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 47 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:1, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 48 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:1, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 49 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:1, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 50 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:1, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 51 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:1, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 52 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:1, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 53 with rank 0 -> <hostage:0, bomb:0, interact:1, defuse:1, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 54 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 55 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 56 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 57 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 58 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 59 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 60 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 61 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:1, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 62 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:1, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 63 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:1, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 64 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:1, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 65 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:1, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 66 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:1, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 67 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:1, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 68 with rank 0 -> <hostage:0, bomb:1, interact:0, defuse:1, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 69 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 70 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:0, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 71 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:0, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 72 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:0, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 73 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:0, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 74 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:0, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 75 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:0, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 76 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 77 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:1, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 78 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:1, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 79 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:1, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 80 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:1, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 81 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:1, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 82 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:1, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 83 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:1, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 84 with rank 0 -> <hostage:0, bomb:1, interact:1, defuse:1, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 85 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 86 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 87 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 88 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 89 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 90 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 91 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 92 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:1, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 93 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:1, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 94 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:1, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 95 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:1, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 96 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:1, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 97 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:1, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 98 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:1, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 99 with rank 0 -> <hostage:1, bomb:0, interact:0, defuse:1, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 100 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 101 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:0, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 102 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:0, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 103 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:0, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 104 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:0, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 105 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:0, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 106 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:0, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 107 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 108 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:1, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 109 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:1, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 110 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:1, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 111 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:1, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 112 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:1, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 113 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:1, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 114 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:1, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 115 with rank 0 -> <hostage:1, bomb:0, interact:1, defuse:1, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 116 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 117 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 118 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 119 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 120 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 121 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 122 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:0, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 123 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:1, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 124 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:1, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 125 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:1, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 126 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:1, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 127 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:1, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 128 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:1, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 129 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:1, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 130 with rank 0 -> <hostage:1, bomb:1, interact:0, defuse:1, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 131 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:0, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 132 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:0, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 133 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:0, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 134 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:0, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 135 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:0, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 136 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:0, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 137 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:0, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 138 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:0, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 139 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:1, not_defuse:0, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 140 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:1, not_defuse:0, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 141 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:1, not_defuse:0, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 142 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:1, not_defuse:0, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+State 143 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:1, not_defuse:1, react_hostage:0, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 144 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:1, not_defuse:1, react_hostage:0, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 145 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:1, not_defuse:1, react_hostage:1, react_bomb:0, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 1, 2, 3, 4
+State 146 with rank 0 -> <hostage:1, bomb:1, interact:1, defuse:1, not_defuse:1, react_hostage:1, react_bomb:1, mem_visit_r2:0, mem_visit_r3:0, r3:0, r2:0, r4:0, r1:1>
+	With successors : 0, 5, 6, 4
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UPenn CIS Pragbot Web Interface, Copyright (C) 2013</title>
+</head>
+<body>
+Hello World!
+<!-- APPLET  CODE = "edu.upenn.cis.pragbot.client.PragbotClientMain.class" CODEBASE = "/home/taylor/repos/Pragbot/" ARCHIVE = "build/jar/PragbotClient.jar" > -->
+<blockquote>
+<hr>
+Tell Junior to go to the conservatory.
+<hr>
+</blockquote>
+$def with (form)
+<form name="command" method="post">
+$if not form.valid <p class="error">No form received for this template:</p>
+$:form.render()
+<input type="submit" />
+</form>
+
+
+<!-- PARAM NAME="url" VALUE="http://www.java3d.org/renee.obj"-->
+</APPLET>
+</body>
+</html>

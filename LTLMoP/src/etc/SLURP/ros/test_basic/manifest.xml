@@ -1,0 +1,15 @@
+<package>
+  <description brief="test_basic">
+
+     test_basic
+
+  </description>
+  <author>Constantine Lignos</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/test_basic</url>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+</package>
+
+

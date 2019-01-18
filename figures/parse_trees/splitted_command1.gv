@@ -1,0 +1,25 @@
+digraph {
+	0 [label=S]
+	1 [label="NP-SBJ-A"]
+	0 -> 1
+	2 [label="VP-A"]
+	0 -> 2
+	3 [label="."]
+	0 -> 3
+	4 [label="-NPNONE-"]
+	1 -> 4
+	5 [label=VB]
+	2 -> 5
+	6 [label="NP-A"]
+	2 -> 6
+	7 [label="." color=blue]
+	3 -> 7
+	8 [label="*" color=blue]
+	4 -> 8
+	9 [label=avoid color=blue]
+	5 -> 9
+	10 [label=NN]
+	6 -> 10
+	11 [label=r4 color=blue]
+	10 -> 11
+}

@@ -1,0 +1,13 @@
+# Blender3D MTL File: Patrick.blend
+# Material Count: 1
+newmtl patrik_mat_patrik_skin.jpg
+Ns 19.607843
+Ka 0.000000 0.000000 0.000000
+Kd 0.081600 0.266400 0.300800
+Ks 0.057000 0.057000 0.057000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd patrik_skin.jpg
+
+

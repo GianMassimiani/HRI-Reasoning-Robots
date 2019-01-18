@@ -1,0 +1,89 @@
+digraph {
+	0 [label=S]
+	1 [label="SBAR-ADV"]
+	0 -> 1
+	2 [label=","]
+	0 -> 2
+	3 [label="NP-SBJ-A"]
+	0 -> 3
+	4 [label=VP]
+	0 -> 4
+	5 [label="."]
+	0 -> 5
+	6 [label=IN]
+	1 -> 6
+	7 [label="S-A"]
+	1 -> 7
+	8 [label="," color=blue]
+	2 -> 8
+	9 [label="-NONE-"]
+	3 -> 9
+	10 [label=VBP]
+	4 -> 10
+	11 [label=RB]
+	4 -> 11
+	12 [label="VP-A"]
+	4 -> 12
+	13 [label="." color=blue]
+	5 -> 13
+	14 [label=If color=blue]
+	6 -> 14
+	15 [label="NP-SBJ-A"]
+	7 -> 15
+	16 [label=VP]
+	7 -> 16
+	17 [label="*" color=blue]
+	9 -> 17
+	18 [label=do color=blue]
+	10 -> 18
+	19 [label="n't" color=blue]
+	11 -> 19
+	20 [label=VB]
+	12 -> 20
+	21 [label="NP-A"]
+	12 -> 21
+	22 [label=PRP]
+	15 -> 22
+	23 [label=VBP]
+	16 -> 23
+	24 [label="NP-A"]
+	16 -> 24
+	25 [label=defuse color=blue]
+	20 -> 25
+	26 [label=DT]
+	21 -> 26
+	27 [label=NN]
+	21 -> 27
+	28 [label=you color=blue]
+	22 -> 28
+	29 [label=detect color=blue]
+	23 -> 29
+	30 [label=NP]
+	24 -> 30
+	31 [label=CC]
+	24 -> 31
+	32 [label=NP]
+	24 -> 32
+	33 [label=the color=blue]
+	26 -> 33
+	34 [label=bomb color=blue]
+	27 -> 34
+	35 [label=DT]
+	30 -> 35
+	36 [label=NN]
+	30 -> 36
+	37 [label=and color=blue]
+	31 -> 37
+	38 [label=DT]
+	32 -> 38
+	39 [label=NN]
+	32 -> 39
+	40 [label=a color=blue]
+	35 -> 40
+	41 [label=hostage color=blue]
+	36 -> 41
+	42 [label=a color=blue]
+	38 -> 42
+	43 [label=bomb color=blue]
+	39 -> 43
+}
