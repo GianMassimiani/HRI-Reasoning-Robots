@@ -1,5 +1,5 @@
 # HRI-Reasoning-Robots
-Course Project Sapienza University of Rome A.Y. 2017/2018
+Course Project at Sapienza University of Rome (second semester 2018)
 
 ## Dependencies
 The code is written in Python 2 and has been tested on Ubuntu 16.04. 
