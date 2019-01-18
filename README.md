@@ -8,9 +8,11 @@ In order to be run, it requires the following dependencies:
 • Python 2.7 (NOTE: code does not work with Python 3)
 
 • Java Runtime Environment (need 1.6 or 1.7) and Java Development Kit:
+      
       `sudo apt - get install default - jre default - jdk`
 
 • Python NumPy, Scipy, and wxPython:
+    
     `sudo apt - get install python - numpy python - scipy python - wxtools`
 
 • Python Polygon2, provided inside the project folder or you can just:
