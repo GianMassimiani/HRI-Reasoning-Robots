@@ -16,6 +16,7 @@ In order to be run, it requires the following dependencies:
     `sudo apt - get install python - numpy python - scipy python - wxtools`
 
 • Python Polygon2, provided inside the project folder or you can just:
+    
     `pip install Polygon2`
 
 • ROS Kinetic (code might not work if you use other ROS versions)
@@ -26,19 +27,29 @@ In order to be run, it requires the following dependencies:
 Before running the code, make sure you have Python on your PATH and 
 the command "python" should point to your Python 2 version (not Python 3, 
 in case you have both installed). Follow these steps to run the code:
+
 1. Clone this repository to your local machine
+
 2. Go to your ROS installation, and open the turtlebot navigation parameters
 file (e.g. using gedit):
+    
     `cd /opt/ros/kinetic/share/turtlebot_navigation/param/`
+    
     `gedit dwa_local_planner_params.yaml`
 On this file set `max_rot_vel` equal to 1.0 (default is 5.0 but this causes
 issues in the turtlebot navigation)
+
 3. Open a terminal and go to the project folder:
+    
     `cd your/path/to/hri_project`
+
 4. Within the project folder, make the script run.sh executable and then
 execute it:
+   
    `chmod + x run . sh`
+   
    `./ run . sh`
+
 5. At this point, Gazebo should start along with several terminal
 windows that will pop up on your screen. Look for the window that 
 asks to write your specification:
