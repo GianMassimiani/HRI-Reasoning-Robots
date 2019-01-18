@@ -9,11 +9,11 @@ In order to be run, it requires the following dependencies:
 
 • Java Runtime Environment (need 1.6 or 1.7) and Java Development Kit:
       
-      `sudo apt - get install default - jre default - jdk`
+      `sudo apt-get install default-jre default-jdk`
 
 • Python NumPy, Scipy, and wxPython:
     
-    `sudo apt - get install python - numpy python - scipy python - wxtools`
+    `sudo apt-get install python-numpy python-scipy python-wxtools`
 
 • Python Polygon2, provided inside the project folder or you can just:
     
@@ -46,9 +46,9 @@ issues in the turtlebot navigation)
 4. Within the project folder, make the script run.sh executable and then
 execute it:
    
-   `chmod + x run . sh`
+   `chmod +x run.sh`
    
-   `./ run . sh`
+   `./run.sh`
 
 5. At this point, Gazebo should start along with several terminal
 windows that will pop up on your screen. Look for the window that 
