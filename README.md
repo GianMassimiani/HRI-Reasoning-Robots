@@ -4,14 +4,20 @@ Course Project Sapienza University of Rome A.Y. 2017/2018
 ## Dependencies
 The code is written in Python 2 and has been tested on Ubuntu 16.04. 
 In order to be run, it requires the following dependencies:
+
 • Python 2.7 (NOTE: code does not work with Python 3)
+
 • Java Runtime Environment (need 1.6 or 1.7) and Java Development Kit:
       `sudo apt - get install default - jre default - jdk`
+
 • Python NumPy, Scipy, and wxPython:
     `sudo apt - get install python - numpy python - scipy python - wxtools`
+
 • Python Polygon2, provided inside the project folder or you can just:
     `pip install Polygon2`
+
 • ROS Kinetic (code might not work if you use other ROS versions)
+
 • Gazebo 7 (NOTE: code was tested only on Gazebo 7.14.0)
 
 ## Downloading and running the code. 
