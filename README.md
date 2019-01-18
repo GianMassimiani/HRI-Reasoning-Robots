@@ -1,5 +1,5 @@
 # HRI-Reasoning-Robots
-Course Project Sapienza University of Rome A.Y. 2017/2018
+Course Project at Sapienza University of Rome (second semester 2018)
 
 ## Dependencies
 The code is written in Python 2 and has been tested on Ubuntu 16.04. 
@@ -54,7 +54,10 @@ execute it:
 windows that will pop up on your screen. Look for the window that 
 asks to write your specification:
 
-6. Type your commands on the window, pressing ENTER after each com-
-mand. When you are done typing commands, press CTRL+D to send the
-commands to the robot, and watch the robot execute them in Gazebo.
-Press q instead if you want to exit.
+![Alt text](figures/terminal_specification.png?raw=true "Title")
+
+6. Type your commands on the window, pressing ENTER after each command
+to add it to the specification (press q and ENTER instead if you 
+want to exit). When you are done typing commands, press CTRL+D to send 
+the specification to the robot. Now watch the robot execute your
+specification in Gazebo.
