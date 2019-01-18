@@ -57,7 +57,7 @@ asks to write your specification:
 ![Alt text](figures/terminal_specification.png?raw=true "Title")
 
 6. Type your commands on the window, pressing ENTER after each command
-to add it to the specification (Press q and ENTER if instead you 
+to add it to the specification (press q and ENTER instead if you 
 want to exit). When you are done typing commands, press CTRL+D to send 
 the specification to the robot. Now watch the robot execute your
 specification in Gazebo.
