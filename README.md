@@ -53,6 +53,7 @@ execute it:
 5. At this point, Gazebo should start along with several terminal
 windows that will pop up on your screen. Look for the window that 
 asks to write your specification:
+
 ![Alt text](figures/terminal_specification.png?raw=true "Title")
 
 6. Type your commands on the window, pressing ENTER after each com-
