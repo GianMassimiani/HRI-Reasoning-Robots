@@ -61,3 +61,6 @@ to add it to the specification (press q and ENTER instead if you
 want to exit). When you are done typing commands, press CTRL+D to send 
 the specification to the robot. Now watch the robot execute your
 specification in Gazebo.
+
+## Simulation videos
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pZ2h2DDL5E4/0.jpg)](https://www.youtube.com/watch?v=pZ2h2DDL5E4&feature=youtu.be)
