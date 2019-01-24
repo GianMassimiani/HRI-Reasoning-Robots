@@ -63,4 +63,6 @@ the specification to the robot. Now watch the robot execute your
 specification in Gazebo.
 
 ## Simulation videos
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pZ2h2DDL5E4/0.jpg)](https://www.youtube.com/watch?v=pZ2h2DDL5E4&feature=youtu.be)
+[![Part 1](https://img.youtube.com/vi/pZ2h2DDL5E4/0.jpg)](https://www.youtube.com/watch?v=pZ2h2DDL5E4&feature=youtu.be)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O3EtuK8yWLY/0.jpg)](https://www.youtube.com/watch?v=O3EtuK8yWLY&feature=youtu.be)
